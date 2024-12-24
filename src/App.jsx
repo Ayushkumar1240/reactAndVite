@@ -1,10 +1,10 @@
 import "./App.css";
-import PackingList from "./components/PackingList";
+import RenderingList from "./components/RenderingList";
 
 function App() {
   return (
     <>
-      <PackingList />
+      <RenderingList />
     </>
   );
 }
