@@ -1,10 +1,14 @@
 import "./App.css";
-import RenderingList from "./components/RenderingList";
-
+import CopyRight from "./components/CopyRight";
+import Fancytext from "./components/Fancytext";
+import InspirationGenerator from "./components/InspirationGenerator";
 function App() {
   return (
     <>
-      <RenderingList />
+      <Fancytext title text="Get Insperational Quotes" />
+      <InspirationGenerator>
+        <CopyRight year={2004} />
+      </InspirationGenerator>
     </>
   );
 }
