@@ -1,14 +1,9 @@
 import "./App.css";
-import CopyRight from "./components/CopyRight";
-import Fancytext from "./components/Fancytext";
-import InspirationGenerator from "./components/InspirationGenerator";
+import Gallery from "./components/Gallery";
 function App() {
   return (
     <>
-      <Fancytext title text="Get Insperational Quotes" />
-      <InspirationGenerator>
-        <CopyRight year={2004} />
-      </InspirationGenerator>
+      <Gallery />
     </>
   );
 }
